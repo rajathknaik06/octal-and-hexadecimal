@@ -1,0 +1,11 @@
+//octal and hexadecimal
+#include<stdio.h>
+int main()
+{
+    int num;
+    scanf("%d",&num);
+    
+    printf("In octal: %o\n",num);                //10
+    printf("In hexadecimal: %X\n",num);
+    return 0;
+}
